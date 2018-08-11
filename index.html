@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>D3Times</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.7.3/d3.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-md-12 col-md-offset-0">
+				<h1>D3Times</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12  col-md-9 col-md-offset-0">
+				<div class="iframeContainer">
+					<!-- Students: Add a responsive iframe here that includes the d3.html file -->
+					<iframe class="resp-iframe" src="d3.html" scrolling="no"></iframe>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12  col-md-9 col-md-offset-0">
+				<div class="article">
+					<!-- Students: Replace with your analysis of the data -->
+					<h1>Analysis of Risk Factors</h1>
+					<p>Many of the findings from this dataset are somewhat rudimentary. For example, we can easily tell that there is a correlation between
+						a lack of healthcare and median household income. This is totally unsurprising; if the median family has a higher income, they are more likely
+						to have healthcare. Similarly, the correlation between poverty percentage and lack of healthcare reflects the same conclusion.
+					</p>
+					<p>
+						Perhaps more interesting is the total lack of correlation between median age and any risk factors. 
+						None of obesity, smoking percentage, nor lack of healthcare had any strong correlation with median age.
+					</p>
+					<p>
+						The correlation between poverty and obesity is relatively small, but there does appear to be a correlation.
+						Logically, this follows; those with a higher income can afford to eat healthier and are more likely to have time for 
+						focusing on their physical health. The correlation between poverty and smoking is a bit more interesting. Smoking 
+						is a particularly expensive habit in many states so the correlation there may have some deeper psychosomatic meaning that
+						I do not have the ability to analyze.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+		<!-- Footer-->
+	<div id="footer">
+		<p><!-- Insert your Copyright Info here --></p>
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,28 @@
+/* Students:
+ * =========
+ * Add styling to your d3 chart with this file. */
+ .active {
+    font: 12px sans-serif;
+    font-weight: bold;
+  }
+  .inactive {
+    font: 12px sans-serif;
+  }
+
+  div.tooltip {	
+    position: absolute;			
+    text-align: center;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    color: white;
+    background: black;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+
+.circle-text {
+  color: white;
+  fill: white;
+  font-weight: bold;
+}
